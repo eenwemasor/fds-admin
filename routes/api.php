@@ -34,3 +34,9 @@ Route::middleware('auth:sanctum')->prefix('settings')->group(function () {
     Route::get('/', [SettingController::class, 'index'])->name('settings.list');
     Route::post('/update', [SettingController::class, 'update'])->name('settings.update');
 });
+
+
+
+Route::prefix('external')->group(function () {
+    Route::get('settings', [SettingController::class, 'index'])->name('external.settings.list');
+});
