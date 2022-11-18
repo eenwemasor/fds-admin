@@ -1,0 +1,66 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.gallery-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+
+    .gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        &:hover {
+            border: 1px solid #777;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        i {
+            color: crimson;
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(203, 17, 54);
+            }
+        }
+    }
+}
+
+
+.navbar-brand {
+    border: 1px solid rgb(16, 26, 1);
+    padding: 10px 20px;
+}
+
+.active {
+    border-bottom: 2px solid #ccc;
+}
+
+.nav-item {
+    .nav-link {
+        padding: 5px 50px;
+
+    }
+}
