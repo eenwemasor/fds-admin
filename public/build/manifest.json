@@ -1,11 +1,11 @@
 {
-  "node_modules/lightgallery/images/loading.gif": {
-    "file": "assets/loading.298ad3ff.gif",
-    "src": "node_modules/lightgallery/images/loading.gif"
-  },
   "node_modules/lightgallery/fonts/lg.woff2": {
     "file": "assets/lg.965a0e5f.woff2",
     "src": "node_modules/lightgallery/fonts/lg.woff2"
+  },
+  "node_modules/lightgallery/images/loading.gif": {
+    "file": "assets/loading.298ad3ff.gif",
+    "src": "node_modules/lightgallery/images/loading.gif"
   },
   "node_modules/lightgallery/fonts/lg.ttf": {
     "file": "assets/lg.22b72ba5.ttf",
@@ -20,7 +20,7 @@
     "src": "node_modules/lightgallery/fonts/lg.svg"
   },
   "resources/js/app.js": {
-    "file": "assets/app.a32fb3c9.js",
+    "file": "assets/app.b5f460ce.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
