@@ -1,5 +1,7 @@
 <template>
-    <loader v-if="loading" />
+   <form v-if="loading">
+    <loader color="dark" size="lg" />
+   </form>
     <form v-else>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label"
@@ -33,7 +35,7 @@ export default {
             setting: null,
             loading: true,
             updating: false,
-            email: "dsdasdas",
+            email: "",
         };
     },
     methods: {
